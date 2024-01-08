@@ -9,6 +9,32 @@ body {
 h1 {
   background-color: ;
 }
+.background-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-container .background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.huddle-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: auto;
+}
 
 .logo-container {
   display: flex;
