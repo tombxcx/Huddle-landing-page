@@ -3,11 +3,30 @@ body {
 }
 
 body {
-  background-color: purple;
+  background-color: #674bb1;
 }
 
 h1 {
-  background-color: black;
+  background-color: ;
 }
 
-/* TODO, Take image captures in figma of landing page logo and social media logos */
+.logo-container {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  color: white;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+.logo-container i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
